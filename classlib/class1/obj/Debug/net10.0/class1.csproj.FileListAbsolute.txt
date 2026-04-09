@@ -1,0 +1,12 @@
+/config/workspace/chess-game/classlib/class1/bin/Debug/net10.0/class1.deps.json
+/config/workspace/chess-game/classlib/class1/bin/Debug/net10.0/class1.dll
+/config/workspace/chess-game/classlib/class1/bin/Debug/net10.0/class1.pdb
+/config/workspace/chess-game/classlib/class1/obj/Debug/net10.0/class1.GeneratedMSBuildEditorConfig.editorconfig
+/config/workspace/chess-game/classlib/class1/obj/Debug/net10.0/class1.AssemblyInfoInputs.cache
+/config/workspace/chess-game/classlib/class1/obj/Debug/net10.0/class1.AssemblyInfo.cs
+/config/workspace/chess-game/classlib/class1/obj/Debug/net10.0/class1.csproj.CoreCompileInputs.cache
+/config/workspace/chess-game/classlib/class1/obj/Debug/net10.0/class1.sourcelink.json
+/config/workspace/chess-game/classlib/class1/obj/Debug/net10.0/class1.dll
+/config/workspace/chess-game/classlib/class1/obj/Debug/net10.0/refint/class1.dll
+/config/workspace/chess-game/classlib/class1/obj/Debug/net10.0/class1.pdb
+/config/workspace/chess-game/classlib/class1/obj/Debug/net10.0/ref/class1.dll
