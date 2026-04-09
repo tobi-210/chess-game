@@ -1,0 +1,9 @@
+<Solution>
+  <Folder Name="/classlib/">
+    <Project Path="classlib/class1/class1.csproj" />
+  </Folder>
+  <Folder Name="/Program/">
+    <Project Path="Program/program00/program00.csproj" />
+  </Folder>
+  <Project Path="unittests/unittests.csproj" />
+</Solution>
