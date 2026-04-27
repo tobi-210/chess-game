@@ -10,7 +10,7 @@ namespace ChessGameProgram {
             Chess board = new Chess();
 
             Console.WriteLine();
-            Console.WriteLine(board);
+            board.Draw();
 
         }
     }
