@@ -85,29 +85,34 @@ public class Chess
         }
     }
 
-    // ############### BAUERN-BEWEGUNG ###############
+    // ############### FIGUR-BEWEGUNG ###############
 
-    public bool MoveBauer(int fromRow, int fromCol, int toRow, int toCol)
-{
-    char pawn = board[fromRow, fromCol];
-
-    // Test ob Figur Bauer ist
-    if (pawn != '♙' && pawn != '♟')
-        return false;
-
-    // Richtung festlegen (darf sich nur 1 Feld bewegen)
-    int direction = pawn == '♙' ? 1 : -1;
-
-    if (toCol == fromCol && toRow == fromRow + direction)
+    public bool Move(int fromRow, int fromCol, int toRow, int toCol)
     {
-        if (board[toRow, toCol] == '\0')
-        {
-            board[toRow, toCol] = pawn;
-            board[fromRow, fromCol] = '\0';
-            return true;
-        }
-    }
 
-    return false;
-}
+        if (fromRow < 0 || fromRow >= 8 || fromCol < 0 || fromCol >= 8)
+        {
+            return false;
+        }
+
+        if (toRow < 0 || toRow >= 8 || toCol < 0 || toCol >= 8)
+        {
+            return false;
+        }
+
+        char piece = board[fromRow, fromCol];
+
+        if (piece == '\0')
+        {
+            return false;
+        }
+
+
+            board[toRow, toCol] = piece;
+            board[fromRow, fromCol] = '\0';
+
+            return true;
+
+
+    }
 }
